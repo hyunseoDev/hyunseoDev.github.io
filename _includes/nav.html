@@ -1,4 +1,11 @@
-	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<style>
+        .fa-font{
+            font-family: cursive;
+            font-weight: bold;
+        }
+        :before{ content: "T"; }
+    </style>
+    <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 		<button class="dl-trigger">Open Menu</button>
 		<ul class="dl-menu">
 			<li><a href="{{ site.url }}/">Home</a></li>
@@ -84,7 +91,7 @@
                         <a href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-hacker-news"></i> Hacker News</a>
                     </li>{% endif %}
                     {% if site.tistory %}<li>
-                    <a href="https://{{ site.tistory }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-text"></i> Tistory</a>
+                    <a href="https://{{ site.tistory }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-font"></i> Tistory</a>
                 </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
