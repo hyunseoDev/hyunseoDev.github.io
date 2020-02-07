@@ -57,7 +57,7 @@ github-url:         hyunseoDev
 #steam:              username
 #dribbble:          username
 #youtube:           username
-youtube-channel:   UCfF996mMGoWN0JJ5C5QUBOg
+youtube-channel:   UCfF996mMGoWN0JJ5c5QUBOg
 #soundcloud:        username
 #weibo:             username
 #flickr:            username
@@ -65,7 +65,7 @@ youtube-channel:   UCfF996mMGoWN0JJ5C5QUBOg
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-tistory : https://writemylife.tistory.com/
+tistory :           writemylife.tistory.com
 # Gems
 gems:
   - jekyll-mentions
