@@ -11,10 +11,9 @@
 	-moz-perspective-origin: 50% 200%;
 	perspective-origin: 50% 200%;
 	@media #{$notsmall} {
-		position: fixed;
-		max-width: 175px;
-		top: 25px;
-		left: 25px;
+        position: fixed;
+        width: 100%;
+        background: #222;
 	}
 	button {
 		top: 0;
