@@ -1,9 +1,9 @@
 	<style>
-        .dl-submenu .fa-font{
+        .dl-submenu .tistory{
             font-family: cursive;
             font-weight: bold;
         }
-        .dl-submenu .fa-font :before{ content: "T" !important; }
+        .dl-submenu .tistory :before{ content: "T" !important; }
     </style>
     <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 		<button class="dl-trigger">Open Menu</button>
@@ -90,9 +90,10 @@
                     {% if site.hackernews %}<li>
                         <a href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-hacker-news"></i> Hacker News</a>
                     </li>{% endif %}
-                    {% if site.tistory %}<li>
-                    <a href="https://{{ site.tistory }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-font"></i> Tistory</a>
-                </li>{% endif %}
+                    {% if site.tistory %}
+                    <li>
+                        <a href="https://{{ site.tistory }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw tistory"></i> Tistory</a>
+                    </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 			<li>
