@@ -126,7 +126,6 @@
 		width: 100%;
 		max-width: 400px;
 		overflow-y: auto;
-		max-height: 600px;
 		opacity: 0;
 		pointer-events: none;
 		box-shadow: 0 12px 24px rgba($black,0.4);
@@ -138,7 +137,6 @@
 		backface-visibility: hidden;
 		@media #{$notsmall} {
 			@include border-radius(3px,3px,3px,3px);
-			max-height: 650px;
 		}
 	}
 	.dl-menu.dl-menu-toggle {
